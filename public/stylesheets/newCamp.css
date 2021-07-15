@@ -1,0 +1,18 @@
+
+
+.btn-color {
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none !important;
+
+  background: linear-gradient(to left, rgb(34,193,195) 50%, rgb(97, 255, 181) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.btn-color:hover {
+  background-position: left;
+}
+

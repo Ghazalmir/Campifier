@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+<body class="">
+        
+            <!--
+            <main class="px-3">
+                <h1>Campifier</h1>
+                <p class="lead"> Welcome to Campifier! <br> Jump right in and explore our many campgrounds. <br>
+                    Feel free to share some of your own and comment on others!</p>
+                <a href="/campgrounds" class="btn btn-lg btn-secondary bg-white">View Campgrounds</a>
+            </main>
+            -->
+            <header id="home-page" class="site-header mt-0">
+                <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+                    <div class="mb-3">
+                        <div class="navbar">
+                            <h3 class="logo float-md-left mb-0"><img class="my-0 pb-2" src="/imgs/whiteLogo.svg" alt="" srcset="" > Campifier</h3>
+                            <nav class="nav nav-masthead justify-content-center float-md-right">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="/campgrounds">Campgrounds</a>
+                                <% if(!currentUser) { %>
+                                <a class="nav-link" href="/login">Login</a>
+                                <a class="nav-link" href="/register">Register</a>
+                                <% } else { %>
+                                <a class="nav-link" href="/logout">Logout</a>
+                                <% } %>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                <section class="layout-hero d-flex flex-column text-light min-vh-10" >
+                  <div class="d-flex flex-column flex-fill justify-content-center align-items-center ">
+                    <div class="header-para d-flex flex-column container justify-content-center align-items-center flex-fill text-center mt-0 mt-md-5 col-8">
+                      <h3 class="header-content header-title display-4 fw-bold">Welcome to Campifier!</h3>
+                    <p class="header-content header-subtitle lead fw-lighter">Jump right in and explore our many campgrounds. <br>
+                        Feel free to share some of your own and comment on others!</p>
+                    
+                  </div>
+                </div>
+                <div class="header-cue bg-white text-center w-100 align-self-end">
+                  <i class="header-cue-icon fas fa-solid fa-chevron-down text-danger"></i>
+                </div>
+                </section>
+              </header>
+              
+            
+            
+              <article id="indexPageMarketing" class="page-section min-vh-80 d-flex flex-column justify-content-center">
+                <section class="layout-floater container py-5">
+                  <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-center">
+                    <section class="col layout-container text-center" id="car-section">
+                      <img src="../imgs/10937-ai.png" id="campground" class="layout-image"   alt="campgrounds marketing image">
+                    </section>
+                    <section class="col text-center text-md-left pl-md-5">
+                      <h2 class="marketing-text fw-bolder text-success">
+                        Find Your Next Adventure!
+                      </h2>
+                      <p class="marketing-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati dolor dolorem molestiae aut, molestias ab. Omnis eveniet velit quidem pariatur. Quia, eum eius laudantium accusamus perspiciatis eaque corporis? Ipsum, suscipit.
+                      </p>
+                      <a href="/campgrounds" class="btn btn-info">View Campgrounds &#8594</a>
+                    </section>
+                    
+                  </div>
+                </section>
+              </article>
+            
+              <article id="registerPageMarketing" class="page-section min-vh-80 d-flex flex-column justify-content-center">
+                <section class="layout-floater container py-5">
+                  <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-center">
+                    <section class="col text-center text-md-left pl-md-5 order-2 order-md-1">
+                      <h2 class="marketing-text fw-bolder text-warning">
+                        Reach More Travelers
+                      </h2>
+                      <p class="marketing-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati dolor dolorem molestiae aut, molestias ab. Omnis eveniet velit quidem pariatur. Quia, eum eius laudantium accusamus perspiciatis eaque corporis? Ipsum, suscipit.
+                      </p>
+                      <a href="/campgrounds/new" class="btn btn-info">Register Your Campground &#8594</a>
+                    </section>
+                    <section class="clouds col text-center order-1 order-md-2">
+                        <img src="../imgs/Layer 1.png" id="cloud1" alt="" >
+                        <img src="../imgs/layer2.png" id="cloud2" alt="">
+                      <!--
+                      <img src="4182666.jpg" id="traveler" class="traveler-image"   alt="campgrounds registration marketing image">
+                      -->
+                    </section>
+                    
+                  </div>
+                </section>
+              </article>
+            
+              
+            
+            
+            <footer class="mt-auto bg-dark text-white-50 d-flex justify-content-center text-center">
+                <p class="mt-3">&copy 2021 Campifier by Ghazal Mir<br>Campgrounds in this website are not real places, and have been randomly generated from multiple databases.</p>
+            </footer>
+
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="/javascripts/home.js"></script>
+</body>
+</html>

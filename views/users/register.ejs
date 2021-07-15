@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Campifier|Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/stylesheets/signInUp.css">
+
+</head>
+<body class="bg-body">
+  <%- include('../partials/navbar')%>
+    <main class="container mt-5">
+        <%- include('../partials/flash')%>
+    
+
+        <div class="container px-4 py-5 mx-auto">
+          <div class="card card0">
+              <div class="d-flex flex-lg-row flex-column-reverse">
+                <div class="card card2 order-2 order-lg-1">
+                  <div class="my-auto mx-md-5 px-md-5 px-5 right transparent-back">
+                    <br>
+                      <h3 class="text-white text-center">Find Your Next Adventure</h3> 
+                      <small class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> </small>
+                    
+                    </div>
+              </div>
+                  <div class="card card1 order-1 order-lg-2">
+                      <div class="row justify-content-center my-auto">
+                          <div class="col-md-8 col-10 my-5">
+                              <div class="row justify-content-center px-3 mb-3"> <img id="logo" src="/imgs/campground-solid.svg"> </div>
+                              <h3 class="mb-5 text-center heading">Campifier</h3>
+                              <h6 class="msg-info text-center">Create your account</h6>
+                              
+                              <form action="/register" method="POST" class="validated-form" novalidate>
+                                
+                                <div class="mb-3 form-group">
+                                  <input class="form-control" type="text" id="username"
+                                    name="username" placeholder="Username" autofocus required>
+                                  <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                </div>
+                                <div class="mb-3 form-group">
+                                  <input class="form-control" type="text" id="email"
+                                    name="email" placeholder="Email" autofocus required>
+                                  <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                </div>
+                                <div class="">
+                                  <input class="form-control" type="password" id="password" name="password" placeholder="Password" required>
+                                  <div class="valid-feedback">
+                                    Looks good!
+                                  </div>
+                                </div class="mt-0">
+                                <div class="row justify-content-center px-3">
+                                  <button class="btn btn-color btn-block">Register</button>
+                                </div>
+                              </form>
+                          
+                            </div>
+                      </div>
+                      
+                      <div class="bottom text-center mb-5">
+                          <p href="#" class="sm-text mx-auto mb-3 text-muted">Already have an account?
+                          <a href="/login" class="btn btn-white btn-sm ml-2">Login</button></a>
+                      </div>
+                  </div>
+                  
+                  
+              </div>
+          </div>
+      </div>
+
+</main>
+<%- include('../partials/footer')%>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+

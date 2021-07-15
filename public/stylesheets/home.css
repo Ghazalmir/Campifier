@@ -1,0 +1,302 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/*
+.cover-container{
+  max-width: 60vw;
+} */
+
+.navbar{
+  color: white;
+  z-index: 20;
+}
+
+.nav-link {
+  padding: 0.25rem 0;
+  color: rgba(255,255,255, 0.5);
+  margin-left: 1rem;
+  border-bottom: 0.1rem solid transparent;
+}
+
+.nav-link:hover{
+  color: rgba(255,255,255, 0.5);
+  border-bottom-color: rgba(255,255,255, 0.5);
+  
+}
+
+.nav-link.active{
+  color: white;
+  border-bottom-color: white;
+}
+
+.btn-info, .btn-info:hover{
+  color: rgb(234, 249, 250);
+  text-shadow: none;
+}
+
+
+.site-header{
+  position: relative;
+  height: 100vh;
+ /* background: linear-gradient(180deg, rgb(103, 66, 150), rgb(54, 28, 88)); */
+  overflow: hidden; /* hides the stuff that get out of the element b/c of transformation, so here if we didn't have this the monsters would have shown in the paragraphs section b/c of their transform property*/
+
+}
+
+.site-header::before{
+  content: "";
+  position: absolute;
+  top:0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  /*z-index: 5; */
+  
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.678) 10%, rgba(255,255,255,0) 100%), url("../imgs/christopher-jolly-gcCcIy6Fc_M-unsplash.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  
+  background-size: 100%;
+  background-position: top;
+  /*background-attachment: fixed; */
+
+  opacity: 0;
+
+  transform: translateY(300px) scale(1.2) ;
+  animation: clear 1s forwards; /* the forward keyword will make it use the last animation keyframe as the ending, not the element properties*/
+}
+
+.header-img-mask{
+  content: "";
+  width: 162%;
+  height: auto;
+  position: top;
+  
+  /*z-index: 5; */
+  opacity: 1;
+
+  /*
+  transform: translateY(300px) scale(1.2) ;
+  animation: move-up 1s forwards; /* the forward keyword will make it use the last animation keyframe as the ending, not the element properties*/
+
+  
+
+}
+
+
+
+.site-header .header-title{
+  
+  animation: clear 0.8s 0.4s /*the delay*/ forwards; 
+  transform: translateY(10rem);
+  opacity: 0;
+
+
+}
+
+.site-header .header-subtitle{
+  animation: clear 1s 0.7s /*the delay*/ forwards; 
+  transform: translateY(10rem);
+  opacity: 0;
+
+
+}
+
+.site-header .header-cue{
+  position: absolute;
+  bottom: 0;
+  animation: clear .5s 1.5s forwards;
+  transform: translateY(2rem);
+  z-index: 10;
+  overflow: hidden;
+
+}
+
+.site-header .header-cue-icon{
+  animation: slide-down .5s 1.8s forwards, pulse 3s 4s ease-in-out infinite;
+  transform: translateY(-2rem);
+  opacity: 1;
+}
+
+#campground, #traveler{
+  height: 25vw;
+  max-height: 50vw;
+  width: auto;
+
+}
+.clouds{
+  height: 300px;
+  background: url("../imgs/4182666.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#cloud1{
+  width: 150px;
+  height: auto;
+  
+  object-position: left top;
+ /* position: absolute; 
+ left: 0;*/
+ 
+
+
+}
+
+
+#cloud2{
+  
+  width: 150px;
+  height: auto;
+  object-position: right top;
+  
+
+
+
+}
+
+.cloud1-move{
+  animation: cloud-left-move 2s .5s ease;
+  animation-fill-mode: forwards;
+}
+
+.cloud2-move{
+  animation: cloud-right-move 2s .5s ease;
+  animation-fill-mode: forwards;
+}
+
+.move-horizontally{
+  animation: red-move 2s ease;
+  animation-fill-mode: forwards;
+
+}
+
+.layout-container{
+  background-image: url("../imgs/10937-ai\ copy.png");
+  background-size: cover;
+
+  background-position:initial;
+  
+  
+}
+
+
+
+
+
+
+@media (max-width: 1090px) {
+  .site-header{
+    height: 60vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .site-header{
+    height: 30vh;
+  }
+  .nav-link{
+    visibility: hidden;
+    display: none;
+
+  }
+  .logo{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  size: 50%;
+
+  }
+  .header-title{
+    margin-top: 0;
+    font-size:30px;
+    font-weight: 20px;
+    white-space: nowrap;
+
+  }
+  
+  .header-subtitle{
+    visibility: hidden;
+    display: none;
+  }
+  
+  .header-para{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+
+    
+  }
+  #traveler{
+    width: 10vw;
+  max-height: 40vw;
+  height: auto;
+  }
+}
+
+
+@keyframes clear {
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes cloud-left-move{
+  0%{
+    transform: translate(10px,0px);
+  }
+  100%{
+    transform: translate(-100px,0px);
+    
+  }
+}
+@keyframes cloud-right-move{
+  0%{
+    transform: translate(-10px,0px);
+  }
+  100%{
+    transform: translate(100px,0px);
+    
+  }
+}
+
+
+@keyframes red-move{
+  0%{
+    transform: translate(-300px,-10px);
+  }
+  100%{
+    transform: translate(15px,-10px);
+    
+  }
+}
+
+
+
+
+
+@keyframes pulse {
+  0%{
+    opacity: 0;
+    transform: none;
+    transform: scale(1);
+
+  }
+  50%{
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+
+  50%{
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  
+}
