@@ -3,7 +3,7 @@ Campifier is a web-based campground suggestion and booking application. With Cam
 
 
 ## 💡 Overview
-Campifier was initially done as a part of Colt Steele's *Web Development Bootcamp* on Udemy.com (named "YelpCamp"), and has been improved, modified, and refactored as a personal project. See all features on the [features section](https://github.com/Ghazalmir/Campifier/new/main?readme=1#feautures).
+Campifier was initially done as a part of Colt Steele's *Web Development Bootcamp* on Udemy.com (named "YelpCamp"), and has been improved, modified, and refactored as a personal project. See all features on the [features section](https://github.com/Ghazalmir/Campifier/blob/main/README.md#%EF%B8%8F-features).
 
 
 ## 🛠 Technologies Used
