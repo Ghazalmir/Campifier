@@ -1,5 +1,5 @@
 # Campifier
-Campifier is a web-based campground suggestion and booking application. With Campifier, you can find new campgrounds, comment your exprience and read about the others', or register your own campground and reach more traveleres.
+Campifier is a web-based campground suggestion and booking application. With Campifier, you can find new campgrounds, comment your experience and read about the others', or register your own campground and reach more travelers.
 
 
 ## 💡 Overview
@@ -13,12 +13,12 @@ Campifier was initially done as a part of Colt Steele's *Web Development Bootcam
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |  :-------------: |
 | HTML5  | NodeJS  | MongoDB  | Heroku  | CSS Animations | Figma | MapBox for Maps
 | CSS | ExpressJS  | Mongoose  | MongoDB Atlas  | ScrollMagic | Unsplash API | PassportJS for Authentication
-| Bootstrap 5 | EJS | Cloudinary  | Git  | Gsap | Freepik | Joi for Data Validation 
+| Bootstrap 5 | EJS | Cloudinary  | Git  | GSAP | Freepik | Joi for Data Validation 
 | Javascript | Javascript | Unsplash Api  | Github  | | Font Awesome
 - Plus 20+ npm packages used (see [this file](https://github.com/Ghazalmir/Campifier/blob/main/package.json)).
 
-## ⚙️ Feautures 
-- Responsive, accessible, and colour-blind friendly.
+## ⚙️ Features 
+- Responsive, accessible, and color-blind friendly.
 - RESTful routes (Create, Read, Update, Delete) for campgrounds and reviews with safe and secure client-side and server-side validation, authentication, and authorization.
 - Fully implemented cookies and sessions.
 - Fully functional database search for campgrounds and maps.
@@ -26,11 +26,11 @@ Campifier was initially done as a part of Colt Steele's *Web Development Bootcam
 - Interactive maps using MapBox.
 - Cloud storage. 
 
-## 📣  Disclaimer and Aknowledgements
+## 📣  Disclaimer and Acknowledgements
 - The campgrounds on this website are not real, and have been randomly generated from a number of databases.
 - See [here]() for credits given to unsplash.com and freepik.com artists.
 
-## 🔒 Licence
+## 🔒 License
 The source code for Campifier is licensed under the MIT license, which you can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
 
 ## 🚀  Code Usage
