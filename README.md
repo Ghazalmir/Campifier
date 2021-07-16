@@ -1,5 +1,5 @@
 # Campifier
-Campifier is a web-based campground suggestion and booking application. With Campifier, you can find new campgrounds, comment your experience and read about the others', or register your own campground and reach more travelers.
+Campifier is a web-based campground suggestion application. With Campifier, you can find new campgrounds, comment your experience and read about the others', or register your own campground and reach more travelers.
 
 
 ## 💡 Overview
