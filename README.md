@@ -48,4 +48,4 @@ CLOUDINARY_SECRET = '<your cloudinary secret code>'
 MAPBOX_TOKEN = '<your mapbox token>'
 ```
 7. Run the website by typing `node app.js` on Terminal.
-8. Open your browser and go to [localhost:3000](localhost:3000).
+8. Open your browser and go to [localhost:3000](http://localhost:3000/).
