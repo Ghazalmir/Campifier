@@ -16,12 +16,12 @@
 <% if(noMatch !== null) {%> 
     <h3 class="text-center mb-5 mt-3" ><%=noMatch %> </h3>
 <% } else { %> 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+<div class="camp-cards-group row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
     
     <% for (let campground of campgrounds){%>
-    <div class="col">
+    <div class="camp-card col">
         <a href="/campgrounds/<%=campground._id%>" class="anchor-no-style">
-      <div class="card card-hover mb-3 mt-3 rounded-corners">
+      <div class=" card card-hover mb-3 mt-3 rounded-corners">
         <%  if(campground.images.length) {%> 
             <img class="img-fluid card-img-top index-card-img-size rounded-borders-top" alt="" src="<%=campground.images[0].url%>">
         <% } else { %> 
@@ -30,21 +30,14 @@
         <div class="card-body">
             <h4 class="card-title mb-0 camp-name"><%= campground.title %> </h4>
             <p class="fs-6 d-inline"><%= campground.location%></p>
-            <span class="d-inline stk-top-left card-price mr-2">$<%= campground.price%>/Night</span>
 
-            <p class="card-text text-black-50 mt-1 mb-3 card-description"><%= campground.description %></p>
+            <p class="card-text text-black-50 mt-1 mb-2 card-description"><%= campground.description %></p>
             <div class="card-body p-0 card-figma mb-1">
                 
-                   
-                <%if (campground.reviews.length > 0){ %>
-                    <%let averageRating = (campground.reviews).reduce(function(sum, item){return sum + (item.rating);}, 0);%>
-                    
-                        <span class="d-inline">&#9733; <%= averageRating %> (<%= campground.reviews.length %>)</span>
-                       <% } else {  %>
+                <p class="d-inline card-price-tag">price: <br></p>
+                        <span class="d-inline card-price ">$<%= campground.price%>/Night</span>
                        
-                    <span class="d-inline">&#9733; 0 (<%= campground.reviews.length %>)</span>
-                    <% }%>   
-                <a  type="button" href="/campgrounds/<%=campground._id%>" class="btn btn-outline-dark d-inline stk-bottom-right rounded-pill mr-2">Explore</a>
+                <a  type="button" href="/campgrounds/<%=campground._id%>" class="btn btn-outline-dark d-inline stk-bottom-right rounded-pill mr-2 mb-2">Explore</a>
             </div>
             
         </div>
@@ -71,3 +64,5 @@
                     
 </script>
 <script src="/javascripts/clusterMap.js"></script>
+<script src="/javascripts/campsIndex.js"></script>
+
