@@ -185,6 +185,41 @@ html{
   
 }
 
+.button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0
+}
+.button{
+  border-radius: 50px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: none !important;
+  margin-top: 3px;
+
+  background: linear-gradient(to left, rgb(34,193,195) 50%, rgb(105, 230, 171) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.button:hover{
+  background-position: left;
+}
+
+.marketing-header{
+color: #80b918;
+}
+
+.traveler-text {
+  color: #fb6107;
+
+}
+
+
+
+
 
 
 
@@ -232,10 +267,14 @@ html{
 
     
   }
-  #traveler{
-    width: 10vw;
-  max-height: 40vw;
-  height: auto;
+  
+
+}
+@media (max-width: 400px) {
+  .clouds{
+    background-size: 50vh auto;
+    background-position: center;
+    
   }
 }
 
