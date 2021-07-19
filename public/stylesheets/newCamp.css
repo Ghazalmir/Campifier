@@ -7,7 +7,7 @@
   cursor: pointer;
   border: none !important;
 
-  background: linear-gradient(to left, rgb(34,193,195) 50%, rgb(97, 255, 181) 50%) right;
+  background: linear-gradient(to left, #67CABF 50%, #AF7EF2 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }

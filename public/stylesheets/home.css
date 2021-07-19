@@ -200,7 +200,7 @@ html{
   border: none !important;
   margin-top: 3px;
 
-  background: linear-gradient(to left, rgb(34,193,195) 50%, rgb(105, 230, 171) 50%) right;
+  background: linear-gradient(to left, #67CABF 50%, #AF7EF2 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
 }
@@ -209,11 +209,11 @@ html{
 }
 
 .marketing-header{
-color: #80b918;
+color: #59A724;
 }
 
 .traveler-text {
-  color: #fb6107;
+  color: #F38058;
 
 }
 
