@@ -116,9 +116,10 @@ html{
 }
 
 .site-header .header-cue-icon{
-  animation: slide-down .5s 1.8s forwards, pulse 3s 4s ease-in-out infinite;
+  color: #F4355A;
+  animation: pulse 3s 2s ease-in-out infinite;
   transform: translateY(-2rem);
-  opacity: 1;
+  opacity: 0;
 }
 
 #campground, #traveler{
@@ -332,9 +333,13 @@ color: #59A724;
     transform: scale(0.8);
   }
 
-  50%{
+  75%{
     opacity: 1;
     transform: scale(1);
+  }
+
+  100%{
+    opacity: 0;
   }
 
   
