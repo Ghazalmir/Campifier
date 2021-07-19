@@ -41,9 +41,9 @@
 
             <% if (currentUser && campground.author.equals(currentUser._id)) {%> 
             <div class="card-body">
-                <a class="card-link btn btn-info" href="/campgrounds/<%=campground._id%>/edit">Edit</a>
+                <a class="card-link btn btn-info rounded-pill" href="/campgrounds/<%=campground._id%>/edit">Edit</a>
                 <form class="d-inline" action="/campgrounds/<%=campground._id%>?_method=DELETE" method="POST">
-                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-danger rounded-pill">Delete</button>
                 </form>
             </div>
             <% } %> 
@@ -84,7 +84,7 @@
                     Looks good!
                 </div>
             </div>
-            <button class="btn btn-success">Submit</button>
+            <button class="btn btn-success rounded-pill">Submit</button>
         </form>
         <% } %> 
         <hr>
@@ -99,7 +99,7 @@
                 <p class="card-text"><%= review.body %></p>
                 <% if (currentUser && review.author.equals(currentUser._id)) {%> 
                     <form action="/campgrounds/<%=campground._id%>/reviews/<%=review._id%>?_method=DELETE" method="POST">
-                        <button class="btn btn-sm btn-danger">Delete</button>
+                        <button class="btn btn-sm btn-danger rounded-pill">Delete</button>
                     </form>
                 <% } %> 
             </div>
