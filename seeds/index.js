@@ -37,8 +37,8 @@ const seedDB = async () => {
                     cities[random1000].latitude] 
             },
             images: [{
-                url: 'https://res.cloudinary.com/dhdcxm63v/image/upload/v1624464503/YelpCamp/jikyszwriqfdgmxya57l.jpg',
-                filename: 'YelpCamp/jikyszwriqfdgmxya57l'
+                url: 'https://res.cloudinary.com/dhdcxm63v/image/upload/v1626800008/YelpCamp/everett-mcintire-BPCsppbNRMI-unsplash_jscxg4.jpg',
+                filename: 'YelpCamp/everett-mcintire-BPCsppbNRMI-unsplash_jscxg4'
             },
             {
                 url:'https://res.cloudinary.com/dhdcxm63v/image/upload/v1624462687/YelpCamp/cjrsbprnhofxz6liziop.jpg',
