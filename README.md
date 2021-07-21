@@ -34,7 +34,7 @@ Campifier was initially done as a part of Colt Steele's *Web Development Bootcam
 The source code for Campifier is licensed under the MIT license, which you can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
 
 ## 🚀  Code Usage
-### Steps:
+### Installation:
 1. Fork this repository. 
 2. Make sure you have MongoDB and nodeJS installed.
 3. Create a Cloudinary account to get an API key and secret code.
@@ -49,3 +49,11 @@ MAPBOX_TOKEN = '<your mapbox token>'
 ```
 7. Run the website by typing `node app.js` on Terminal.
 8. Open your browser and go to [localhost:3000](http://localhost:3000/).
+
+
+### Seeding the database:
+1. Open Terminal and `cd`to the project directory on your system.
+2. Run the following command to seed the database: `node seeds/index.js`. This command will earase the data from the mongoDB database named “campifier” if it exists, and then create 300 new campgrounds randomly from two data bases (see [this file](https://github.com/Ghazalmir/Campifier/blob/main/seeds/seedHelpers.js) for names and [this file](https://github.com/Ghazalmir/Campifier/blob/main/seeds/cities.js) for locations). 
+3. For more information about the seeding process, see [this file](https://github.com/Ghazalmir/Campifier/blob/main/seeds/index.js).
+
+**Note**: Because of the structure of the campgrounds’ model, which has been designed for individually created campgrounds by real users, all the campgrounds created with this method will have the same image (see [this file](https://github.com/Ghazalmir/Campifier/blob/main/models/campground.js) for more information).
