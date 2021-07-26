@@ -25,9 +25,10 @@ textarea:focus {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 1px solid #67CABF !important;
+  border: 1.5px solid #67CABF !important;
   outline-width: 0;
-  font-weight: 400
+  font-weight: 400;
+  cursor: pointer;
 }
 
 button:focus {
