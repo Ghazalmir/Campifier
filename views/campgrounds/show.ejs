@@ -86,6 +86,9 @@
         <% } %> 
         <hr>
         <h3>User Reviews</h3>
+        <% if(campground.reviews.length < 1) {%>
+            <p>No reviews yet. <a href="/login">Login</a> to write your own.</p>
+        <% } %> 
         <% for(let review of campground.reviews) { %>
         <div class="card mb-3 ">
             <div class="card-body">
