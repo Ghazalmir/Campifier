@@ -40,7 +40,7 @@ Campifier was initially done as a part of Colt Steele's *Web Development Bootcam
 - See [here]() for credits given to unsplash.com and freepik.com artists.
 
 ## 🔒 License
-The source code for Campifier is licensed under the MIT license, which you can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
+The source code for Campifier is licensed under the MIT license, which can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
 
 ## 🚀 Usage
 ### Installation:
