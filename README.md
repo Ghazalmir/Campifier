@@ -3,12 +3,12 @@ Campifier is a web-based campground suggestion application. With Campifier, you 
 
 <p align="center">
   <b>Contents</b><br>
-  <a href="https://github.com/Ghazalmir/Campifier#-overview">Overview</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#-technologies-used">Technologies Used</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">Features</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">Disclaimer and Acknowledgements</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#-license">License</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#--code-usage">Usage</a> 
+  <a href="https://github.com/Ghazalmir/Campifier#-overview">💡 Overview</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#-technologies-used">🛠 Technologies Used</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">⚙️ Features</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">📣 Disclaimer and Acknowledgements</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#-license">🔒 License</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#-usage">🚀 Usage</a> 
 </p>
 
 ## 💡 Overview
