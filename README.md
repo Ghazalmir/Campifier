@@ -1,6 +1,15 @@
 # Campifier
 Campifier is a web-based campground suggestion application. With Campifier, you can find new campgrounds, comment your experience and read about the others', or register your own campground and reach more travelers.
 
+<p align="center">
+  <b>Contents</b><br>
+  <a href="https://github.com/Ghazalmir/Campifier#-overview">Overview</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#-technologies-used">Technologies Used</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">Features</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">Disclaimer and Acknowledgements</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#-license">License</a> |
+  <a href="https://github.com/Ghazalmir/Campifier#--code-usage">Usage</a> 
+</p>
 
 ## 💡 Overview
 Campifier was initially done as a part of Colt Steele's *Web Development Bootcamp* on Udemy.com (named "YelpCamp"), and has been improved, modified, and refactored as a personal project. See all features on the [features section](https://github.com/Ghazalmir/Campifier/blob/main/README.md#%EF%B8%8F-features).
@@ -33,7 +42,7 @@ Campifier was initially done as a part of Colt Steele's *Web Development Bootcam
 ## 🔒 License
 The source code for Campifier is licensed under the MIT license, which you can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
 
-## 🚀  Code Usage
+## 🚀 Usage
 ### Installation:
 1. Fork this repository. 
 2. Make sure you have MongoDB and nodeJS installed.
