@@ -1,18 +1,21 @@
 # Campifier
 Campifier is a web-based campground suggestion application. With Campifier, you can find new campgrounds, comment your experience and read about the others', or register your own campground and reach more travelers.
 
-<p align="center">
-  <b>Contents</b><br>
-  <a href="https://github.com/Ghazalmir/Campifier#-overview">💡 Overview</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#-technologies-used">🛠 Technologies Used</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">⚙️ Features</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features">📣 Disclaimer and Acknowledgements</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#-license">🔒 License</a> |
-  <a href="https://github.com/Ghazalmir/Campifier#-usage">🚀 Usage</a> 
-</p>
+### Contents:
+* 💡 [Overview](https://github.com/Ghazalmir/Campifier#-overview)
+* 🛠 [Technologies Used](https://github.com/Ghazalmir/Campifier#-technologies-used)
+* ⚙️ [Features](https://github.com/Ghazalmir/Campifier#%EF%B8%8F-features)
+* 📣 [Disclaimer and Acknowledgements](https://github.com/Ghazalmir/Campifier#-disclaimer-and-acknowledgements)
+* 🔒 [License](https://github.com/Ghazalmir/Campifier#-license)
+* 🚀 [Usage](https://github.com/Ghazalmir/Campifier#-usage)
+
 
 ## 💡 Overview
 Campifier was initially done as a part of Colt Steele's *Web Development Bootcamp* on Udemy.com (named "YelpCamp"), and has been improved, modified, and refactored as a personal project. See all features on the [features section](https://github.com/Ghazalmir/Campifier/blob/main/README.md#%EF%B8%8F-features).
+
+Desktop View            |  Mobile View (iPhone X)
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/72219373/130488763-a47e21d5-05e2-48dc-a7da-6f728ea2ad98.mp4) | ![](https://user-images.githubusercontent.com/72219373/130489788-2ada00df-0257-4a5d-ad4d-ef12cf3b487a.mp4)
 
 
 ## 🛠 Technologies Used
