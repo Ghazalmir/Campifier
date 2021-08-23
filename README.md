@@ -40,7 +40,7 @@ Desktop View            |  Mobile View (iPhone X)
 
 ## 📣  Disclaimer and Acknowledgements
 - The campgrounds on this website are not real, and have been randomly generated from a number of databases.
-- See [here]() for credits given to unsplash.com and freepik.com artists.
+- See [here](https://github.com/Ghazalmir/Campifier/blob/main/CREDITS.md) for credits given to unsplash.com and freepik.com artists.
 
 ## 🔒 License
 The source code for Campifier is licensed under the MIT license, which can be found [here](https://github.com/Ghazalmir/Campifier/blob/main/LICENSE.md).
