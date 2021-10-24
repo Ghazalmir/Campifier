@@ -17,16 +17,17 @@ Desktop View            |  Mobile View (iPhone X)
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/72219373/130488763-a47e21d5-05e2-48dc-a7da-6f728ea2ad98.mp4) | ![](https://user-images.githubusercontent.com/72219373/130489788-2ada00df-0257-4a5d-ad4d-ef12cf3b487a.mp4)
 
+**Note**: the above videos may not show on some browsers.
 
 ## 🛠 Technologies Used
 
 
-| Front-End  | Back-End | Database Management | Deployment | Animation | Graphics | Other
-| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |  :-------------: |
-| HTML5  | NodeJS  | MongoDB  | Heroku  | CSS Animations | Figma | MapBox for Maps
-| CSS | ExpressJS  | Mongoose  | MongoDB Atlas  | ScrollMagic | Unsplash API | PassportJS for Authentication
-| Bootstrap 5 | EJS | Cloudinary  | Git  | GSAP | Freepik | Joi for Data Validation 
-| Javascript | Javascript | Unsplash Api  | Github  | | Font Awesome
+| Front-End  | Back-End | Database Management | Animation | Graphics | Other
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |  :-------------: |
+| HTML5  | NodeJS  | MongoDB | CSS Animations | Figma | MapBox for Maps
+| CSS | ExpressJS  | Mongoose  | ScrollMagic | Unsplash API | PassportJS for Authentication
+| Bootstrap 5 | EJS | Cloudinary | GSAP | Freepik | Joi for Data Validation 
+| Javascript | Javascript | Unsplash Api | | Font Awesome | Git and Github for version control
 - Plus 20+ npm packages used (see [this file](https://github.com/Ghazalmir/Campifier/blob/main/package.json)).
 
 ## ⚙️ Features 
