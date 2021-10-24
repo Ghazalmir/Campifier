@@ -17,7 +17,7 @@ Desktop View            |  Mobile View (iPhone X)
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/72219373/130488763-a47e21d5-05e2-48dc-a7da-6f728ea2ad98.mp4) | ![](https://user-images.githubusercontent.com/72219373/130489788-2ada00df-0257-4a5d-ad4d-ef12cf3b487a.mp4)
 
-**Note**: the above videos may not show on some browsers. You can view them in a new tab via these links: [Desktop View](https://user-images.githubusercontent.com/72219373/130488763-a47e21d5-05e2-48dc-a7da-6f728ea2ad98.mp4) and [Mobile View](https://user-images.githubusercontent.com/72219373/130489788-2ada00df-0257-4a5d-ad4d-ef12cf3b487a.mp4).
+**Note**: the above videos may not show on some browsers. You can watch them using these links: [Desktop View](https://user-images.githubusercontent.com/72219373/130488763-a47e21d5-05e2-48dc-a7da-6f728ea2ad98.mp4) and [Mobile View](https://user-images.githubusercontent.com/72219373/130489788-2ada00df-0257-4a5d-ad4d-ef12cf3b487a.mp4).
 
 ## 🛠 Technologies Used
 
